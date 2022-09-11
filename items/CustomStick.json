@@ -1,0 +1,52 @@
+{
+    "format_version": "1.18.0",
+    "minecraft:item": {
+      "description": {
+        "identifier": "splaturn:stick"
+      },
+      "components": {
+        "minecraft:fuel": {
+          "duration": 200.0
+        },
+        "minecraft:item_storage": {
+            "capacity": 256
+        },
+        "minecraft:icon": {
+          "texture": "stick"
+        },
+        "minecraft:hand_equipped": true,
+        "minecraft:display_name": {
+          "value": "Splat Stick"
+        },
+        "minecraft:shooter": {
+            "ammunition": [
+              {
+                "item": "minecraft:arrow",
+                "use_offhand": true,
+                "search_inventory": true,
+                "use_in_creative": true
+              }
+            ]
+        },
+        "minecraft:repairable": {
+            "repair_items": [
+                "minecraft:stick"
+            ]
+        },
+        "minecraft:durability": {
+            "damage_chance": {
+                "min": 20,
+                "max": 70
+            },
+            "max_durability": 32
+        },
+        "minecraft:cooldown": {
+          "category": "splaturn_stick",
+          "duration": 2
+        },
+        "minecraft:chargeable": {
+          "movement_modifier": 1.0
+        }
+      }
+    }
+  }

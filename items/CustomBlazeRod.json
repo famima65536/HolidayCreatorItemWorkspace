@@ -1,0 +1,35 @@
+{
+    "format_version": "1.18.0",
+    "minecraft:item": {
+      "description": {
+        "identifier": "splaturn:blaze_rod"
+      },
+      "components": {
+        "minecraft:fuel": {
+          "duration": 200.0
+        },
+        "minecraft:item_storage": {
+            "capacity": 256
+        },
+        "minecraft:icon": {
+          "texture": "blaze_rod"
+        },
+        "minecraft:hand_equipped": true,
+        "minecraft:display_name": {
+          "value": "Splat Rod"
+        },
+        "minecraft:repairable": {
+            "repair_items": [
+                "minecraft:stick"
+            ]
+        },
+        "minecraft:durability": {
+            "damage_chance": {
+                "min": 20,
+                "max": 70
+            },
+            "max_durability": 32
+        }
+      }
+    }
+  }

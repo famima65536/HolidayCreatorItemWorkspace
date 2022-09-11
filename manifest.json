@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Holiday Creator Item Explained",
+        "name": "Holiday Creator Item Explained",
+        "uuid": "54260b73-30b5-4976-bf3c-3add935847d8",
+        "version": [ 0, 0, 1 ],
+        "min_engine_version": [ 1, 19, 0 ]
+    },
+    "modules": [
+        {
+            "description": "HolidayCreatorItemExplained",
+            "type": "data",
+            "uuid": "d81fb024-d9a0-4be8-84cd-f7d618578d52",
+            "version": [0, 0, 1]
+        }
+    ]
+}
